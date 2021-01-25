@@ -1,6 +1,9 @@
 describe(`Split array function`, function () {
-  xit(`es capaz de dividir el arreglo en dos partes`, function () {
-    //expect
+  it(`es capaz de dividir el arreglo en dos partes`, function () {
+    expect(split([1, 6, 4, 23, 46, 7, 32, 31])).toEqual([
+      [1, 6, 4, 23],
+      [46, 7, 32, 31],
+    ]);
   });
 });
 
